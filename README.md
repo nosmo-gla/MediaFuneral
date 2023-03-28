@@ -6,7 +6,7 @@ The WALOGIN cookie set on authentication to Listserv contains encoded user crede
 This compromises account credentials and allows account takeover.
 
 ## Software Affected
-LSOFT Listserv version 16.5 confirmed, possibly 17.0 also.
+LSOFT Listserv version <=16.0, 16.5 where `WA_USE_INSECURE_COOKIE=1` is set in config file.
 
 ## Attack Type
 Remote
@@ -39,8 +39,14 @@ argument | Description
 
 
 ### Example
+```
+.\media-funeral.py -d DACBD9D9DDC5D8CE9B9899
+Mode: Decoding
+Input: DACBD9D9DDC5D8CE9B9899
+Output: password123
+```
 
-
+![Media-Funeral-Screenshot](https://user-images.githubusercontent.com/126897012/228221538-5cfb251c-5a17-4f93-8c3e-5db6187fbbc0.png)
 
 
 
