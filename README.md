@@ -29,7 +29,7 @@ The second section is the encoded password, delimited by `-`.
 This tool is designed to encode and decode this second section of the cookie.
 
 ### Syntax
-mediafuneral.py (-e | -d) credential
+`mediafuneral.py (-e | -d) credential`
 
 argument | Description
 --- | ---
